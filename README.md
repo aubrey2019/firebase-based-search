@@ -27,7 +27,11 @@ In order to the implement functions above, we have several steps to do:
 
 
 
+
 3. Performance analysis on query processing & exploration process
-Since we have already uploaded the inverted index to firebase, the time complexity for searching one word is O(n).
-Assume that we have m words for the search query, the time complexity for searching the whole search query will be O(mn). The exploration process is just the same as the procedure above. However, at this time, m will be 1.
-The time complexity for exploration process is 0(n). The search will be very fast because we have uploaded the inverted index.
+
+  Since we have already uploaded the inverted index to firebase, the time complexity for searching one word is O(n).
+
+  Assume that we have m words for the search query, the time complexity for searching the whole search query will be O(mn). The exploration process is just the same as the procedure above. However, at this time, m will be 1.
+  
+  The time complexity for exploration process is 0(n). The search will be very fast because we have uploaded the inverted index.
